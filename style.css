@@ -1,0 +1,98 @@
+body{
+    margin: none;
+    padding: none;
+    background-image: url(./imagens/churras.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter:contrast(10px);
+    background-color: rgb(104, 10, 10);
+
+}
+#barra_menu{
+   
+    margin: -8px;
+    height: 9vh;
+    background-color: rgba(8, 8, 8, 0.427);
+}
+a{
+    font-family: steakhouse , Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-style: none;
+    text-decoration: none;
+    font-size: 40px;
+    padding-left: 45%;
+ 
+  
+}
+.titulo{
+    position: absolute;
+    top: 10%; bottom: 25%;
+    left: 40%; right: 0;
+}
+.container{
+    /* background-color: rgba(20, 21, 20, 0.363); */
+    height: 300px;
+    margin-top:10px ;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px ;
+    font-family:monospace;
+    font-size: large;
+    color: rgba(240, 248, 255, 0.673);
+    position: absolute;
+    top: 10%; bottom: 25%;
+    left: 40%; right: 0;
+
+}
+h1{
+    max-height: 150px;
+    font-family:monospace;
+    text-align:center;
+    font-size: 30px;
+    color: #ffffff;
+
+}
+p{
+    color: rgb(234, 234, 226);
+}
+input{
+    width:50%;
+    display: block;
+    margin:auto;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.422);
+    color: rgb(255, 252, 252);
+    font-size: 22px;
+    padding-left: 10px;
+}
+input::placeholder{
+    color: white;
+}
+#adulto{
+    margin-top: 55px;
+}
+button{
+
+    padding: 10px;
+    margin-top: 55px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.596);
+    color: rgba(240, 248, 255, 0.829);
+    border-radius: 30px;
+    border-color: #00000000;
+
+}
+@font-face {
+    font-family:steakhouse ;
+    src: url(./fontes/Steak\ House.otf);
+}
+@font-face {
+    font-family:steakhouse2 ;
+    src: url(./fontes//Steak\ House.woff2)
+}
