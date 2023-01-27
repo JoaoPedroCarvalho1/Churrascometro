@@ -11,18 +11,21 @@
     <div id="barra_menu">
         <a id="churras"  href="#">Churras</a>
     </div>
-
-
+    <div id="background">
         <div class="container">
 
-            <h1>Descubra o Quanto de bebida e comida vai precisar para seu churrasco!</h1>
+            <div class="titulo"> <h1>Calcule Bebidas e Comidas para seu churrasco!</h1>
+            </div>
+
+            <p>Quantidade de Adultos</p>
             <input id="adultos" type="number" placeholder="Adultos" name="adulto">
+            <p>Quantidade de crianças</p>
             <input id="criancas" type="number" placeholder="Crianças" name="crianca">
+            <p>Quantidade de horas de duração</p>
             <input id="duracao" type="number" placeholder="Duração (h)" name="duracao">
             <button onclick="calcular()">Calcular</button>
-            <div id="resultado"></div>
+            <div id="resultado"><img src="./imagens/Logotipo rústico marrom para açougue e casa de carnes.png" alt="" id="img"></div>
         </div>
-
     </div>
     <script src="./script.js"></script>
 </body>

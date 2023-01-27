@@ -21,10 +21,10 @@ function calcular(){
     let qdTotalcerveja = cerveja * adultos;
     let qdTotalbebidas = bebidas * adultos + (bebidas /2 * criancas);
 
-
-    resultado.innerHTML  =  `<p>${qdTotalCarne/1000}kg de Carne </p>`
-    resultado.innerHTML += `<p>${Math.ceil(qdTotalcerveja/350)} Latas de Cerveja (latas de 350ml) </p>`
-    resultado.innerHTML += `<p>${Math.ceil(qdTotalbebidas/2000)} Pet's 2L de Bebidas(Aguá,Suco,Refrigerantes e etc.)<p/v>`
+    resultado.innerHTML =  `<h1 id="tituloResposta">Será nescessário</h1>`
+    resultado.innerHTML +=  `<p>${qdTotalCarne/1000}kg de Carne </p>`
+    resultado.innerHTML += `<p>${Math.ceil(qdTotalcerveja/350)} Latas de Cerveja <br>(latas de 350ml)</br></p>`
+    resultado.innerHTML += `<p>${Math.ceil(qdTotalbebidas/2000)} Pet's 2L de Bebidas <br>(Aguá,Suco,Refrigerantes e etc).</br><p/v>`
     // calculo do projeto e respondendo no HTML
     // (usar assento ao invés de aspas)
 }

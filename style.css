@@ -1,64 +1,59 @@
 body{
-    margin: none;
-    padding: none;
-    background-image: url(./imagens/churras.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    filter:contrast(10px);
-    background-color: rgb(104, 10, 10);
+
+    background-color: rgb(75,6,7);
 
 }
 #barra_menu{
    
     margin: -8px;
-    height: 9vh;
     background-color: rgba(8, 8, 8, 0.427);
 }
+
 a{
     font-family: steakhouse , Arial, Helvetica, sans-serif;
     color: #ffffff;
     font-style: none;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 50px;
     padding-left: 45%;
  
   
 }
-.titulo{
-    position: absolute;
-    top: 10%; bottom: 25%;
-    left: 40%; right: 0;
-}
 .container{
-    /* background-color: rgba(20, 21, 20, 0.363); */
-    height: 300px;
-    margin-top:10px ;
+    background-color: rgba(8, 8, 8, 0.427);
+    height: 550px;
+    width: 500px;
+    margin-top:20px ;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px ;
     font-family:monospace;
     font-size: large;
-    color: rgba(240, 248, 255, 0.673);
     position: absolute;
-    top: 10%; bottom: 25%;
-    left: 40%; right: 0;
+    top: 10%; bottom: 25%; left: 7%;
 
 }
+.titulo{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    
+}
 h1{
-    max-height: 150px;
+    width: 550px;
     font-family:monospace;
     text-align:center;
     font-size: 30px;
-    color: #ffffff;
-
+    color:rgb(228, 117, 48);
+    padding: 10PX;
 }
 p{
-    color: rgb(234, 234, 226);
+    color: rgb(227, 179, 45);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 input{
-    width:50%;
+    width:70%;
     display: block;
     margin:auto;
     border: none;
@@ -79,15 +74,47 @@ input::placeholder{
 }
 button{
 
-    padding: 10px;
+    padding: 15px;
     margin-top: 55px;
     font-size: 30px;
-    background-color: rgba(0, 0, 0, 0.596);
-    color: rgba(240, 248, 255, 0.829);
+    background-color: rgba(228, 117, 48, 0.747);
+    color: rgb(226, 216, 217);
     border-radius: 30px;
     border-color: #00000000;
 
 }
+button:hover{
+    background-color: rgb(114, 10, 12);
+}
+#img{
+    height: 900px;
+    height: 640px;
+    position: absolute;
+    top: -20%;
+    left: -10%;
+}
+#resultado{
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 500px;
+    height: 380px;
+    padding: 10px;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    top: 15%; bottom: 50%; right: ;
+    left: 140%;
+    
+}
+#tituloResposta{
+   margin: none;
+   width: 500px;
+}
+br{
+    font-size: 12px;
+    color:#ffffff ;
+}
+
 @font-face {
     font-family:steakhouse ;
     src: url(./fontes/Steak\ House.otf);
