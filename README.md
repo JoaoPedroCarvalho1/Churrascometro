@@ -6,4 +6,4 @@ CSS
 JAVASCRIPT
 
 <h2>Imagens do Projeto: </h2>
-<img s r c ="https://user-images.githubusercontent.com/119813813/215225564-94a4db28-2f83-4077-977e-71bb858c8391.png"
+![Captura de tela_20230127_205952](https://user-images.githubusercontent.com/119813813/215227669-db12de56-028e-46f9-a6fe-b5e8a9467284.png)
