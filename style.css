@@ -1,3 +1,6 @@
+body::-webkit-scrollbar {
+    width: 1px;               
+  }
 body{
 
     background-color: rgb(75,6,7);
@@ -5,7 +8,6 @@ body{
 }
 #barra_menu{
    
-    margin: -8px;
     background-color: rgba(8, 8, 8, 0.427);
 }
 
